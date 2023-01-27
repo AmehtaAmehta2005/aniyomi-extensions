@@ -305,9 +305,9 @@ class Kamyroll : ConfigurableAnimeSource, AnimeHttpSource() {
         val domainPref = ListPreference(screen.context).apply {
             key = "preferred_domain"
             title = "Preferred domain (requires app restart)"
-            entries = arrayOf("kamyroll.tech")
-            entryValues = arrayOf("https://api.kamyroll.tech")
-            setDefaultValue("https://api.kamyroll.tech")
+            entries = arrayOf("consumet.org")
+            entryValues = arrayOf("https://api.consumet.org/anime/crunchyroll")
+            setDefaultValue("https://api.consumet.org/anime/crunchyroll")
             summary = "%s"
 
             setOnPreferenceChangeListener { _, newValue ->
