@@ -37,7 +37,7 @@ class Kamyroll : ConfigurableAnimeSource, AnimeHttpSource() {
 
     override val name = "Kamyroll"
 
-    override val baseUrl by lazy { preferences.getString("preferred_domain", "https://api.kamyroll.tech")!! }
+    override val baseUrl by lazy { preferences.getString("preferred_domain", "https://api.consumet.org/anime/crunchyroll")!! }
 
     override val lang = "all"
 
